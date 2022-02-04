@@ -47,7 +47,7 @@ function CreatePost({ isAuth }) {
             }}
           />
         </div>
-        <button onClick={createPost}> Submit Post</button>
+        <button class="create" onClick={createPost}> Submit Post</button>
       </div>
     </div>
   );
