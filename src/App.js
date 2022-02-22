@@ -23,11 +23,11 @@ function App() {
   return (
     <Router className="wrapper">
       <nav>
-        <a href="https://pdhillon.netlify.app/" target="_blank">View Portfolio</a>
-        <Link className="face" to="/"> 
+        <a className="face" href="https://pdhillon.netlify.app/" target="_blank">
+        
         <img className="face" src={face}/>
         <img className="face" src={gface}/> 
-        </Link>
+        </a>
 
         {!isAuth ? (
           <Link className="log" to="/login"></Link>
