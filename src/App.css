@@ -130,6 +130,9 @@ html{
   textarea {
     margin-top: 5px;
   }
+  .log{
+    display: none;
+  }
   
   .loginPage {
     height: calc(100vh - 80px);
@@ -227,6 +230,10 @@ html{
 	  padding-bottom: 2rem;
 	  border-radius: .2rem;
 	  transition: 1.5s;
+  }
+  .postImage{
+    padding: 1rem;
+    height: 5rem;
   }
 
   .post:hover{

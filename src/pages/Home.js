@@ -24,10 +24,11 @@ function Home() {
             <div className="postHeader">
               <div className="title">
                 <h1> {post.title}</h1>
+                <img className="postImage" src={post.image}></img>
               </div>
             </div>
             <div className="postTextContainer"> {post.postText} </div>
-            <h3>@{post.author.name}</h3>
+            <h3>{post.date}</h3>
           </div>
         );
       })}

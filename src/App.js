@@ -23,14 +23,14 @@ function App() {
   return (
     <Router className="wrapper">
       <nav>
-        <a href="https://pdhillon.netlify.app/" target="_blank">Portfolio</a>
+        <a href="https://pdhillon.netlify.app/" target="_blank">View Portfolio</a>
         <Link className="face" to="/"> 
         <img className="face" src={face}/>
         <img className="face" src={gface}/> 
         </Link>
 
         {!isAuth ? (
-          <Link to="/login"> Login </Link>
+          <Link className="log" to="/login"></Link>
         ) : (
           <>
             <Link to="/createpost"> + </Link>
@@ -43,6 +43,7 @@ function App() {
         <Route path="/createpost" element={<CreatePost isAuth={isAuth} />} />
         <Route path="/login" element={<Login setIsAuth={setIsAuth} />} />
       </Routes>
+      <span>© {new Date().getFullYear()} Perminder</span>
     </Router>
   );
 }
