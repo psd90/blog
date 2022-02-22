@@ -23,8 +23,7 @@ function Home() {
           <div className="post">
             <div className="postHeader">
               <div className="title">
-                <h1> {post.title}</h1>
-                <img className="postImage" src={post.image}></img>
+                <img className="postImage" src={post.title}></img>
               </div>
             </div>
             <div className="postTextContainer"> {post.postText} </div>
