@@ -275,10 +275,13 @@ html{
 
   @media screen and (max-width: 1000px){
     .homePage{
-      max-width: 300px;
+      max-width: 30%;
     }
     .face{
       transform: translateX(-10rem);
+    }
+    .postTextContainer{
+      max-width: 10%;
     }
    
 }
