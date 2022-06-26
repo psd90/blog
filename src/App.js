@@ -23,10 +23,9 @@ function App() {
   return (
     <Router className="wrapper">
       <nav>
-        <a className="face" href="https://pdhillon.netlify.app/" target="_blank">
-        
-        <img className="face" src={face}/>
-        <img className="face" src={gface}/> 
+        <a className="face" href="https://pdhillon.netlify.app/" target="_blank" without rel="noreferrer">
+        <img className="face" src={face} alt="my face"/>
+        <img className="face" src={gface} alt="my face"/> 
         </a>
 
         {!isAuth ? (

@@ -274,15 +274,16 @@ html{
   }
 
   @media screen and (max-width: 1000px){
-    .homePage{
-      max-width: 50%;
-      font-size: 1.3rem;
+    nav{
+      display: none;
     }
-    .face{
-      transform: translateX(-260%);
+    .homePage{
+      max-width: 40%;
+      font-size: 1.3rem;
+      margin: -1;
+      overflow-y: hidden;
     }
     .postTextContainer{
-      max-width: 80%;
+      max-width: 50%;
     }
-   
 }
