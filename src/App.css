@@ -272,3 +272,13 @@ html{
     transition: 1s;
     background-color: rgba(0, 196, 82, 0.6);
   }
+
+  @media screen and (max-width: 1000px){
+    .homePage{
+      max-width: 300px;
+    }
+    .face{
+      transform: translateX(-10rem);
+    }
+   
+}
